@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+/* DESAFIO 00: Adicione o logo DASA na navbar. Dimensione o tamanho de acordo com o projeto XD. */
+/* DESAFIO 01: Crie as âncoras do seu site na navbar. */
+
+nav {
+    background-color: #000F40;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* 
+DESAFIO 02: Coloque uma imagem de fundo no header.
+DESAFIO 03: Crie o título do header e o botão "clique e assista"
+*/
+
+header {
+    background-image: url("images/imagem-de-fundo.png");
+    background-size: cover;
+    height: 1080px;
+}
+
+/* 
+DESAFIO 04: Adicione a imagem de coração ao fundo da sessão.
+DESAFIO 05: Crie na section o título, o parágrafo e o botão Saiba Mais. 
+DESAFIO 06: Adicione a foto à direita e ajuste os espaçamentos da sessão. 
+*/
+
+section {
+    background-image: url("images/paciente-1-1.png");
+    height: 1080px;
+    display:flex;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+h2 {
+    text-align: left;
+    font: normal normal bold 134px/119px Segoe UI;
+    letter-spacing: 0px;
+    opacity: 1;
+
+}
+
+h3 {
+    text-align: left;
+    font: normal normal normal 22px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 1;
+
+}
+
+h4 {
+    text-align: left;
+    font: normal normal bold 27px/50px Segoe UI;
+    letter-spacing: 0px;
+
+}
+  
+
+/* 
+DESAFIO 07: Adicione o título "últimas publicações" 
+DESAFIO 08: Crie a primeira publicação. (dica: coloque a imagem e o parágrafo na mesma div, depois é só duplicar para fazer o restante) 
+*/
+
+#publications {
+    background-color: #EEFAFF;
+    height:1080px;
+}
+/* 
+DESAFIO 09: Adicione o texto do footer.
+DESAGIO 10: Adicione as imagens das redes sociais. */
+
+footer {
+    background-color: #000F40;
+    height: 539px;
+}
